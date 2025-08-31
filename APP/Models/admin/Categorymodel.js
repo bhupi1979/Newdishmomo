@@ -6,5 +6,5 @@ const userSchema = mngs.Schema({
   }
 
 },  {timestamps:true})
-let Maincategorymodel=mngs.model('categorytable',userSchema)
+let Maincategorymodel=mngs.model('category',userSchema)
 module.exports=Maincategorymodel

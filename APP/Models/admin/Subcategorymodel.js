@@ -14,5 +14,5 @@ const userSchema = mngs.Schema({
   }
 
 },  {timestamps:true})
-let Subcategorymodel=mngs.model('subcategorytable',userSchema)
+let Subcategorymodel=mngs.model('subcategory',userSchema)
 module.exports=Subcategorymodel
