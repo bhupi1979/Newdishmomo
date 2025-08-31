@@ -13,5 +13,5 @@ parcelname:{
     unique:true
   }
 },  {timestamps:true})
-let Tablemodel=mngs.model('Count',userSchema)
+let Tablemodel=mngs.model('Counttable',userSchema)
 module.exports=Tablemodel
