@@ -29,5 +29,5 @@ const userSchema = mngs.Schema({
 
 },  {timestamps:true})
 userSchema.index({ createdAt: 1 }, { expireAfterSeconds: 43200 * 60 });
-let Cartoperation=mngs.model('carttable',userSchema)
+let Cartoperation=mngs.model('cart',userSchema)
 module.exports=Cartoperation
